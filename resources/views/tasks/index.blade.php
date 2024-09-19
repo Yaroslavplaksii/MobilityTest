@@ -117,7 +117,7 @@
     </div>
     </div> 
     {{-- End edit task --}}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{asset('js/jquery.js')}}"></script> 
 <script>
     $(document).ready(function() {        
         let token = "{{$token}}";
